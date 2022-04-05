@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ObST": {
+      "commandName": "Project",
+      "commandLineArgs": "test"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+    <PackageReference Include="NJsonSchema" Version="10.6.7" />
+	<PackageReference Include="FsCheck" Version="3.0.0-alpha4" />
+	<PackageReference Include="IdentityModel" Version="6.0.0" />
+	<PackageReference Include="Microsoft.Net.Http.Headers" Version="2.2.8" />
+	<PackageReference Include="CompareNETObjects" Version="4.74.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ObST.Core\ObST.Core.csproj" />
+  </ItemGroup>
+
+</Project>

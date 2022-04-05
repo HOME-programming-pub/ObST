@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.OpenApi.Readers" Version="1.2.3" />
+	<PackageReference Include="CompareNETObjects" Version="4.74.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ObST.Core\ObST.Core.csproj" />
+  </ItemGroup>
+
+</Project>

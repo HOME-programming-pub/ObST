@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoApi", "TodoApi\TodoApi.csproj", "{3465F2F2-76FB-416F-8D86-1BA9D3965D62}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DD79C8CF-D6AE-4B84-883C-AB395AACE4F5}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObST", "ObST\ObST.csproj", "{2546C406-68B3-4F66-A6EC-40059C060670}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObST.Analyzer", "ObST.Analyzer\ObST.Analyzer.csproj", "{82EA5742-388E-44B5-8B9E-CDD00ABA6EE3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObST.Analyzer.Test", "ObST.Analyzer.Test\ObST.Analyzer.Test.csproj", "{98823443-935B-48FE-97D4-8D2A42E00314}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObST.Core", "ObST.Core\ObST.Core.csproj", "{F939D1DA-9895-4FDC-ADF6-0605CBF3574D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObST.Tester", "ObST.Tester\ObST.Tester.csproj", "{A2766DDA-D2EA-4F88-BD90-3F1613F247CC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObST.Tester.Test", "ObST.Tester.Test\ObST.Tester.Test.csproj", "{A3BC3863-D1B0-4DB1-8FE2-944F4D47ED7C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3465F2F2-76FB-416F-8D86-1BA9D3965D62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3465F2F2-76FB-416F-8D86-1BA9D3965D62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3465F2F2-76FB-416F-8D86-1BA9D3965D62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3465F2F2-76FB-416F-8D86-1BA9D3965D62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2546C406-68B3-4F66-A6EC-40059C060670}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2546C406-68B3-4F66-A6EC-40059C060670}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2546C406-68B3-4F66-A6EC-40059C060670}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2546C406-68B3-4F66-A6EC-40059C060670}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82EA5742-388E-44B5-8B9E-CDD00ABA6EE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82EA5742-388E-44B5-8B9E-CDD00ABA6EE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82EA5742-388E-44B5-8B9E-CDD00ABA6EE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82EA5742-388E-44B5-8B9E-CDD00ABA6EE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98823443-935B-48FE-97D4-8D2A42E00314}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98823443-935B-48FE-97D4-8D2A42E00314}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98823443-935B-48FE-97D4-8D2A42E00314}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98823443-935B-48FE-97D4-8D2A42E00314}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F939D1DA-9895-4FDC-ADF6-0605CBF3574D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F939D1DA-9895-4FDC-ADF6-0605CBF3574D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F939D1DA-9895-4FDC-ADF6-0605CBF3574D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F939D1DA-9895-4FDC-ADF6-0605CBF3574D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2766DDA-D2EA-4F88-BD90-3F1613F247CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2766DDA-D2EA-4F88-BD90-3F1613F247CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2766DDA-D2EA-4F88-BD90-3F1613F247CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2766DDA-D2EA-4F88-BD90-3F1613F247CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3BC3863-D1B0-4DB1-8FE2-944F4D47ED7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3BC3863-D1B0-4DB1-8FE2-944F4D47ED7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3BC3863-D1B0-4DB1-8FE2-944F4D47ED7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3BC3863-D1B0-4DB1-8FE2-944F4D47ED7C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4E95A733-E2BA-482B-8676-7AF224AD3E02}
+	EndGlobalSection
+EndGlobal
