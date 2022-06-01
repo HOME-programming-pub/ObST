@@ -179,4 +179,4 @@ Additionally the state after the execution of the operation is show listing all 
 `TodoItem:@id<Comment:@id` represents a `Comment` which is a child of a `TodoItem`.
 
 **Further References:**
-The initial implementation of ObST has been created by Benjamin Kissmann in his master thesis (in German, unfortunately) [Automatisiertes Testen von RESTful Webservices zur Validierung von Claim-basierten Berechtigungskonzepten mittels der OpenAPI-Dokumentation](http://dx.doi.org/10.25673/37346).
+The initial implementation of ObST has been created by Benjamin Kissmann in his master thesis [Automatisiertes Testen von RESTful Webservices zur Validierung von Claim-basierten Berechtigungskonzepten mittels der OpenAPI-Dokumentation](http://dx.doi.org/10.25673/37346) (in German, only).
