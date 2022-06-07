@@ -1,8 +1,12 @@
 {
   "profiles": {
-    "ObST": {
+    "ObST test": {
       "commandName": "Project",
       "commandLineArgs": "test"
+    },
+    "ObST analyze": {
+      "commandName": "Project",
+      "commandLineArgs": "analyze"
     },
     "ObST licenses": {
       "commandName": "Project",
