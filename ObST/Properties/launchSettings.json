@@ -3,6 +3,10 @@
     "ObST": {
       "commandName": "Project",
       "commandLineArgs": "test"
+    },
+    "ObST licenses": {
+      "commandName": "Project",
+      "commandLineArgs": "licenses"
     }
   }
 }

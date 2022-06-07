@@ -7,6 +7,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Serilog;
 using Serilog.Events;
+using System.Reflection;
 
 namespace ObST;
 
@@ -16,6 +17,7 @@ class Program
     {
         [Option("verbose", HelpText = "Set log level to verbose")]
         public bool Verbose { get; set; }
+        
     }
 
     [Verb("analyze", HelpText = "Analyze an OpenAPI Specification and generate a TestConfiguration")]
@@ -57,12 +59,19 @@ class Program
         }
     }
 
+    [Verb("licenses", HelpText = "Display license information of third-party libraries used by this software")]
+    private class LicenseOptions : BaseOptions
+    {
+      
+    }
+
     static int Main(string[] args)
     {
-        return Parser.Default.ParseArguments<AnalyzeOptions, TestOptions>(args)
+        return Parser.Default.ParseArguments<AnalyzeOptions, TestOptions, LicenseOptions>(args)
             .MapResult(
             (AnalyzeOptions opts) => RunAnalyze(opts),
             (TestOptions opts) => RunTest(opts),
+            (LicenseOptions opts) => RunLicenses(opts),
             errs => -1
             );
     }
@@ -132,6 +141,14 @@ class Program
 
         Tester.Startup.Run(configuration, sp);
 
+        return 0;
+    }
+
+    private static int RunLicenses(LicenseOptions opts)
+    {
+        var licenses = Properties.Resources.licenses;
+        Console.WriteLine("The following libraries are used by this software (list generated with 'dotnet-project-licenses'): ");
+        Console.Write(licenses);
         return 0;
     }
 }
