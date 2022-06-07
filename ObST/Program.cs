@@ -24,10 +24,10 @@ class Program
     private class AnalyzeOptions : BaseOptions
     {
         [Option('i', "in", Required = true, HelpText = "OpenAPI Specification file to be processed.")]
-        public string? InputFile { get; set; }
+        public string InputFile { get; set; } = "oas.json";
 
         [Option('o', "out", HelpText = "Test Configuration output file. Defaults to config.yaml")]
-        public string? OutputFile { get; set; } = "config.yaml";
+        public string OutputFile { get; set; } = "config.yaml";
 
         [Usage]
         public static IEnumerable<Example> Examples
