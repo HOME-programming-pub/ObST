@@ -1,3 +1,5 @@
+![build and test](https://github.com/HOME-programming-pub/ObST/actions/workflows/dotnet.yml/badge.svg)
+
 # ObST - OpenAPI-based Stateful Testing
 
 ObST is a commandline testing tool to automatically validate RESTful Webservice using it's OpenAPI specification.
