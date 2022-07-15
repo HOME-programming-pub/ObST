@@ -28,4 +28,5 @@ jobs:
           title: "Development Build"
           files: |
             LICENSE.md
-            ObST/bin/Release/net6.0/publish/win-x64/*.exe
+            ObST/bin/Release/net6.0/publish/win-x64/ObST.exe
+            ObST/bin/Release/net6.0/publish/linux-x64/ObST
