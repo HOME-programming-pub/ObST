@@ -10,6 +10,11 @@ jobs:
     runs-on: "ubuntu-latest"
 
     steps:
+      - uses: actions/checkout@v3
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v2
+        with:
+          dotnet-version: 6.0.x
       - name: ".NET build and publish"
         run: |
           dotnet publish -c Release -p:PublishProfile=Win
@@ -23,4 +28,4 @@ jobs:
           title: "Development Build"
           files: |
             LICENSE.md
-            *.exe
+            ObST/bin/Release/net6.0/publish/win-x64/*.exe
