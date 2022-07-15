@@ -1,4 +1,4 @@
-![build and test](https://github.com/HOME-programming-pub/ObST/actions/workflows/dotnet.yml/badge.svg)
+![build and test](https://github.com/HOME-programming-pub/ObST/actions/workflows/tests.yml/badge.svg)
 
 # ObST - OpenAPI-based Stateful Testing
 
